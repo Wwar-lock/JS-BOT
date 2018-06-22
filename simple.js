@@ -1,8 +1,7 @@
 var ques = [
     'Hello! What\'s your name?',
-    'I am a very boring chatbot XD',
+    'Am I a boring chatbot?? XD',
     'What are you doin\'?',
-    'ohh! Good',
     'What are your future plans?',
     'Best Wishes!!'
   ];
@@ -25,19 +24,19 @@ var ques = [
         setTimeout(nextquestion,2000);
       }
       else if(counter==1){
-        output.innerHTML = `${input}!! Nice to meet you.`;
+        output.innerHTML = `HAHAHAHAHAHA`;
         inputBox.value = "";
         ++counter;
         setTimeout(nextquestion,2000);
       }
       else if(counter==2){
-        output.innerHTML = `${input}!! Nice to meet you.`;
+        output.innerHTML = `Nice!! Keep it up :)`;
         inputBox.value = "";
         ++counter;
         setTimeout(nextquestion,2000);
       }
       else if(counter==3){
-        output.innerHTML = `${input}!! Nice to meet you.`;
+        output.innerHTML = `Best of luck, Buddy!!`;
         inputBox.value = "";
         ++counter;
         setTimeout(nextquestion,2000);
